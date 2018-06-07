@@ -1,0 +1,97 @@
+﻿body {
+    margin:0;
+}
+#Box1{
+    height:920px;
+    width:1210px;
+    background-color:lightgrey;
+   
+}
+#Box2{
+    height:900px;
+    width:1110px;
+    background-color:darkgrey;
+    margin:auto;
+    
+}
+#Box2-1{
+    height:40px;
+    width:1110px;
+    background-color:dimgrey;
+}
+#Box2-2{
+    height:860px;
+    width:1110px;
+   text-align:center;
+}
+#Box2-2-1{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-2{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-3{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-4{
+    height:215px;
+    width:370px;
+    float:left;
+    /*background-color:red;*/
+}
+#Box2-2-5{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-6{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-7{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-8{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-9{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-10{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-11{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-12{
+    height:215px;
+    width:370px;
+    float:left;
+}
+/*#Box2-2-13{
+    height:215px;
+    width:370px;
+    float:left;
+}
+#Box2-2-14{
+    height:215px;
+    width:370px;
+    float:left;
+}*/

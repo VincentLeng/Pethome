@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pet.master.cs" Inherits="WEB.Pet" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/mubanye.css" rel="stylesheet" />    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>欢迎来到PetHome</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Tou" style="border-color: #000000">
+        <div id="Tou1"></div>
+        <div id="Tou2">
+            <div id="Tou2-1" style="margin-top:6px"><font face size="6px" color="blue">PetHome</font></div>
+            <div id="Tou2-2"><br />
+                <a href="index.aspx">首页</a><br />
+            </div>
+            <div id="Tou2-3"><br /><a href="#">宠物小贴士</a></div>
+            <div id="Tou2-4"> 
+                 <div class="btn-group" style="background-color: white">
+	                <button type="button" class="btn btn-primary" style="background-color: white;border:1px solid gainsboro" ><a href="zhaoling.aspx">宠物招领</a></button>
+	                <button type="button" class="btn btn-primary dropdown-toggle" 
+			                data-toggle="dropdown" style="background-color: gainsboro;border:1px solid gainsboro">
+		                <span class="caret"></span>
+		                <span class="sr-only">切换下拉菜单</span>
+	                </button>
+	                <ul class="dropdown-menu" role="menu" >
+		                <li><a href="jiyang.aspx">宠物寄养</a></li>
+		                <li><a href="ZhaoHui.aspx">宠物找回</a></li>
+	                </ul>
+                </div>
+            </div>
+            <div id="Tou2-5"><br /><a href="#">宠物商城</a></div>
+            <div id="Tou2-6"><br /><a href="#">论坛中心</a></div>
+            <div id="Tou2-7">
+                <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style1" Height="37px" Width="250px"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" Text="搜索" Height="37px" Width="66px" />
+                </div>
+            <div id="Tou2-8"><br />
+                <a href="Login.aspx">登录</a>/<a href="Register.aspx">注册</a></div>
+          
+        </div>
+        <div id="Tou3">
+            <hr size="10" color="black" width="100%"/>
+        </div>
+
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <div id="Wei">
+        <br /><br />
+
+
+        <a href="#" target="_blank">公司介绍</a> ┊ 
+
+<a href="#" target="_blank">联系我们</a> ┊ 
+
+<a href="#" target="_blank">法律条款</a> ┊ 
+
+<a href="#" target="_blank">招募人才</a> ┊ 
+
+<a href="#" target="_blank">免责声明</a> ┊ 
+
+      <br/><br />
+    服务时间：周一至周日 8:00-18:00  统一工作地址：
+    <span>师大3522&nbsp;<strong class="cDRed">PetHome</strong>软件有限公司　 版权所有 © 2006-2017<br /><br />
+    服务时间：周一至周日 8:00-18:00  统一客服热线：<strong class="cDRed">18942356809</strong><br/></span>
+    </div>
+    
+    </form>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

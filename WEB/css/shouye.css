@@ -1,0 +1,279 @@
+﻿@import url('shouye.css');
+body {
+    margin:0;
+}
+#PageBody{
+    height:2273px;
+    margin-bottom:5px;
+    background-color:aquamarine;
+}
+/*轮播图*/
+#Box1{
+    height:710px;
+    /*width:1000px;*/
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+}
+#Box1-1{
+    height:710px;
+    width:200px;
+    float:left;
+    background-color:aqua;
+}
+#Box1-2{
+    height:710px;
+    width:200px;
+    float:right;
+    background-color:aqua;
+}
+#Box1-3{
+    height:710px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+}
+#Box1-3-1{
+    height:100px;
+    width:1000px;
+    background-color:white;
+    text-align:center;
+    float:left;
+}
+#Box1-3-2{
+    height:500px;
+    width:1000px;
+    background-size:500px,1000px;
+    float:left;
+}
+#Box1-3-3{
+    height:100px;
+    width:1000px;
+    text-align:center;
+    text-decoration-color:palevioletred;
+    float:left;
+}
+#Box2{
+    height:563px;
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+}
+#Box2-1{
+    height:100px;
+    width:1200px;
+    background-color:palevioletred;
+    text-align:center;
+}
+/*宠物商城*/
+#Box2-2{
+    height:463px;
+    width:1200px;
+    background-color:red;
+}
+#Box2-2-1{
+    height:463px;
+    width:300px;
+    float:left;
+    background-color:white;
+}
+#Box2-2-1-1{
+    height:228px;
+    width:300px;
+    background-color:aqua;
+    text-align:center;
+}
+#Box2-2-1-2{
+    height:7px;
+    background-color:red;
+    text-align:center;
+}
+#Box2-2-1-3{
+      height:228px;
+      width:300px;
+      background-color:antiquewhite;
+      text-align:center;
+}
+/*#Box2-2-2{
+     height:463px;
+     width:300px;
+     float:left;
+     background-color:wheat;
+     
+}
+#Box2-2-2-1{
+    height:228px;
+    width:300px;
+    background-color:aqua;
+    text-align:center;
+}
+#Box2-2-2-2{
+    height:7px;
+    background-color:red;
+    text-align:center;
+}
+#Box2-2-2-3 {
+    height: 228px;
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+#Box2-2-3{
+    height:463px;
+    width:300px;
+    float:left;
+    background-color:aquamarine;
+}
+#Box2-2-3-1{
+    height:228px;
+    width:300px;
+    background-color:aqua;
+    text-align:center;
+}
+#Box2-2-3-2{
+    height:7px;
+    background-color:red;
+    text-align:center;
+}
+#Box2-2-3-3 {
+    height: 228px;
+    width: 300px;
+    background-color: cadetblue;
+    text-align: center;
+}
+#Box2-2-4{
+      height:463px;
+      width:300px;
+      float:left;
+      background-color:blue;
+}
+#Box2-2-4-1{
+    height:228px;
+    width:300px;
+    background-color:aqua;
+    text-align:center;
+}
+#Box2-2-4-2{
+    height:7px;
+    background-color:red;
+    text-align:center;
+}
+#Box2-2-4-3 {
+    height: 228px;
+    width: 300px;
+    background-color: chartreuse;
+    text-align: center;
+}*/
+/*失物招领*/
+#Box3{
+    height:500px;
+    width:1200px;
+    margin:auto;
+    background-color:white;
+    }
+#Box3-1{
+   height:100px;
+   background-color:aliceblue;
+}
+
+
+#Box3-2{
+    height:400px;
+    width:800px;
+    float:left;
+    background-color:blueviolet;
+
+}
+#Box3-2-1{
+    height:100px;
+    background-color:aqua;
+}
+#Box3-2-10{
+    height:400px;
+    width:800px;
+}
+#Box3-2-2{
+    height:300px;
+    width:270px;
+    float:left;
+    background-color:antiquewhite;
+}
+#p1{
+    text-align:center;
+}
+#Box3-2-3 {
+    height:300px;
+    width:270px;
+     float:left;
+    background-color:aquamarine;
+}
+#Box3-2-4{
+    height:300px;
+    width:260px;
+     float:left;
+     background-color:blanchedalmond;
+
+}
+#Box3-3{
+    height:400px;
+    width:400px;
+    float:left;
+    background-color:aliceblue;
+}
+#img1{
+    height:200px;
+    width:200px;
+    float:left;
+    background-color:aquamarine;
+}
+#img2{
+    height:200px;
+    width:200px;
+    float:left;
+    background-color:burlywood;
+}
+#img3{
+    height:200px;
+    width:200px;
+    float:left;
+    background-color:chartreuse;
+}
+#img4{
+    height:200px;
+    width:200px;
+    float:left;
+    background-color:chocolate;
+}
+ /*论坛*/
+#Box4{
+    height:500px;
+    width:1200px;
+    margin:auto;
+    background-color:aquamarine;
+}
+#Box4-1{
+    height:100px;
+   background-color:white;
+}
+ #Box4-2{
+     height:70px;
+     margin-top:65px;
+     text-align:center;
+     background-color:palevioletred;
+ }
+ #Box4-2-1{
+     height:330px;
+     width:600px;
+     float:left;
+     text-align:center;
+     background-color:antiquewhite;
+ }
+ #Box4-2-2{
+     height:330px;
+     width:600px;
+     float:left;
+     text-align:center;
+     background-color:antiquewhite;
+ }

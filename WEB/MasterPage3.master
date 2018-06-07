@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">  
+    <link href="../css/base.css" rel="stylesheet" />
+   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>欢迎来到PetHome</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+  
+ <div class="headbar">
+    <div class="box">
+        <h1 class="fl logo" title="">PetHome</h1>  
+        <div class="fl exam-link"> 
+         <a  target="_blank" href="index.aspx">首页</a> 
+         <a  target="_blank" href="#">宠物小贴士</a> 
+         <a  target="_blank" href="#">宠物商城</a> 
+         <%--   <script language="javascript">
+                function xiala()
+                {
+                    var a = document.getElementById("game").selectedIndex;
+                    document.getElementById("show").href = document.getElementById("game").options[a].value;
+                }
+            </script>           
+                  
+                       <select id="game" onchange="xiala()">
+                         <option value="jiyang.aspx">宠物找回</option>
+                          <option value="ZhaoHui.aspx">宠物招领</option>
+                          <option value="zhaoling.aspx">宠物寄养</option>
+                       </select>
+                        <a href="jiyang.aspx" id="show">uig</a>--%>
+            <a href="jiyang.aspx">寄养</a><a href="ZhaoHui.aspx">找回</a><a href="zhaoling.aspx">招领</a>
+         <a  target="_blank" href="Activity.aspx">活动中心</a> 
+        </div>
+        <div class="fl search">
+            <input type="text"  value="搜索宠物品种" onfocus="if(this.value=='搜索试题关键字') this.value='';" onblur="if (this.value =='') this.value='搜索试题关键字'" maxlength="35" class="search-box" name="wd" id="keyword" />
+            <input name="提交" type="button" class="btn" onClick="examsearch('')"value="搜索" />
+        </div>
+        
+       <span id="PopLoginTips"><a class="self-ico" href="Login.aspx">登录</a> <a class="btn-register" href="Register.aspx">注册</a> </span>
+    </div>
+   </div>
+ 
+  
+	
+
+
+  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <div id="footer">
+  <div class="a2">    
+<a href="#" target="_blank">公司介绍</a> ┊ 
+
+<a href="#" target="_blank">联系我们</a> ┊ 
+
+<a href="#" target="_blank">法律条款</a> ┊ 
+
+<a href="#" target="_blank">招募人才</a> ┊ 
+
+<a href="#" target="_blank">免责声明</a> ┊ 
+
+      <br/>
+    服务时间：周一至周日 8:00-18:00  统一客服热线：
+    <span>师大3522&nbsp;<strong class="cDRed">PetHome</strong>软件有限公司　 版权所有 © 2006-2017<br />
+    服务时间：周一至周日 8:00-18:00  统一客服热线：<strong class="cDRed">18942356809</strong><br/></span>
+  </div>
+</div>      
+    </form>
+     
+   
+</body>
+</html>

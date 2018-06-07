@@ -1,0 +1,27 @@
+﻿body {
+    margin:0;
+}
+#Content{
+    width:1000px;
+    margin:auto;
+}
+
+#P1{
+    width:1000px;
+    height:300px;
+    background-color:antiquewhite;
+}
+#P1-1{
+    width:333.3px;
+    height:300px;
+  
+}
+#image{
+    width:333.3px;
+    height:250px;
+    
+    text-align:center;
+}
+
+
+

@@ -1,0 +1,85 @@
+﻿body {
+    margin:0;
+}
+#Tou{
+    height:81px;
+    width:1600px;
+  /*background-color:deepskyblue*/
+  
+}
+#Tou1{
+    height:20px;
+   
+}
+#Tou2{
+    height:40px;
+    width:1200px;
+    margin:auto;
+   
+    border-bottom-color:black;
+    text-align:center;
+}
+#Tou2-1{
+    width:150px;
+    float:left;
+    height:40px;
+    
+}
+#Tou2-2{
+    width:110px;
+    height:40px;
+    float:left;
+    
+}
+#Tou2-3{
+    width:110px;
+    height:40px;
+    float:left;
+    
+}
+#Tou2-4{
+   width:110px;
+    height:40px;
+    float:left;
+    margin-top:12px;
+    background-color:white;
+   
+}
+#Tou2-5{
+   width:110px;
+    height:40px;
+    float:left;
+    
+}
+#Tou2-6{
+   width:110px;
+    height:40px;
+    float:left;
+    
+}
+#Tou2-7{
+   width:390px;
+    height:40px;
+    float:left;
+    margin-top:10px;
+   
+}
+#Tou2-8{
+    width:110px;
+    height:40px;
+    float:left;
+   
+}
+#Tou3{
+    height:2px;
+    background-color:dimgray;
+}
+
+#Wei{
+    height:180px;
+    width:1600px;
+    background-color:dimgrey;
+    text-align:center;
+    text-decoration-color:white;
+    color:white;
+}
